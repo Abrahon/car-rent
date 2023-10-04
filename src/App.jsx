@@ -1,11 +1,14 @@
 
+import { RouterProvider } from 'react-router'
 import './App.css'
-import Car from './pages/Home/Car/Car'
+
+import { router } from './Routes/Routes'
 
 function App() {
   return (
     <>
-     <Car></Car>
+     
+     <RouterProvider router={router}></RouterProvider>
     </>
   )
 }

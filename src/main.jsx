@@ -6,7 +6,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className=' mx-10 my-3'> 
-    <App />
+    <App></App>
     </div>
   </React.StrictMode>,
 )
